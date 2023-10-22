@@ -42,6 +42,13 @@
       </extension>
     </extensions>
   </build>
+  <distributionManagement>
+    <repository>
+      <id>qpg.jp</id>
+      <name>qpg.jp repository</name>
+      <url>dav:http://qpg.jp/maven</url>
+    </repository>
+  </distributionManagement>
   <dependencies>
     <!-- https://mvnrepository.com/artifact/org.apache.pdfbox/pdfbox -->
     <dependency>
